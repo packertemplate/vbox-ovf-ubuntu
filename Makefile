@@ -3,11 +3,6 @@
 username = alvaro
 # ie sufix = -project
 sufix = 
-# private box? true or false
-private = true
-# project description
-description =
-
 # path for source files
 # source = source
 
