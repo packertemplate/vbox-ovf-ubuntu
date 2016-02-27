@@ -10,7 +10,7 @@ This build will be local, and we will be using `virtualbox-ovf` builder.
 
 ## How to use this repo
 
-`git clone <this repo> <project name>`
+- `git clone <this repo> <project name>`
 
 - Edit Makefile
 
