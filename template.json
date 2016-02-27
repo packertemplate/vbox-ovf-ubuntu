@@ -1,6 +1,7 @@
 {
   "variables": {
     "os": "",
+    "source": "source",
     "username": "",
     "vm_name": ""
   },
@@ -8,7 +9,7 @@
     {
       "type": "virtualbox-ovf",
       "name": "vbox-ovf",
-      "source_path": "source/{{user `os`}}/box.ovf",
+      "source_path": "{{user `source`}}/{{user `os`}}/box.ovf",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "shutdown_command": "sudo shutdown -P now",
