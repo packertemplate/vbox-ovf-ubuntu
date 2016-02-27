@@ -5,23 +5,25 @@ This projects is a helper to fast creation of boxes using packer and store them 
 This build will be local, and we will be using `virtualbox-ovf` builder.
 
 ## Pre Requirements
-1. Have ATLAS_TOKEN set
+- Have an user or oranization in ATLAS
+- Have ATLAS_TOKEN set
 
 ## How to use this repo
 
-`git clone <this repo> <project name>
+`git clone <this repo> <project name>`
 
-
-1. Edit Makefile
+- Edit Makefile
 
 ```Makefile
 #atlas username or atlas organization to upload the boxes
 username = alvaro
 # ie sufix = -project
 sufix =
+# path for source files
+# source = source
 ```
 
-1. Update /scripts/provision.sh
+- Update /scripts/provision.sh
 
 ## First run
 
