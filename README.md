@@ -5,6 +5,7 @@ This projects is a helper to fast creation of boxes using packer and store them 
 This build will be local, and we will be using `virtualbox-ovf` builder.
 
 ## Pre Requirements
+
 - Have an user or oranization in ATLAS
 - Have ATLAS_TOKEN set
 
@@ -22,6 +23,10 @@ sufix =
 # path for source files
 # source = source
 ```
+
+In order to use the same source files in more than one project, you can set a variable
+ie `export source=<path>` or you can uncomment and the same in the Makefile
+`source=<path>`
 
 - Update /scripts/provision.sh
 
