@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 export DEBIAN_FRONTEND=noninteractive
 unset PACKAGES
@@ -6,6 +7,7 @@ unset PACKAGES
 #begin
 #your awesome provisioning here
 #PACKAGES=""
+#sudo -E apt-get clean
 #sudo -E -H apt-get update
 #sudo -E -H apt-get install -y -q --no-install-recommends ${PACKAGES}
 #
